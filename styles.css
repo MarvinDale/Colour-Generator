@@ -1,26 +1,46 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
-.nav {
-  background-color: gray;
+button {
+  background-color: transparent;
+  border: 2px solid #333;
+  padding: 15px 32px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-h1 {
+h2 {
+  color: #fff;
+  background-color: #333;
+  padding: 1rem;
+  width: 40%;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.colour {
-  margin: 0;
-  background-color: greenyellow;
-  padding: 100px;
+li {
+  float: left;
 }
 
-p {
-  margin: 0;
+li a {
+  display: block;
   color: white;
-  background-color: black;
-  width: 10%;
-  padding: 15px;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
