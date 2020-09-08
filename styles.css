@@ -6,7 +6,7 @@ body {
 
 button {
   background-color: transparent;
-  border: 2px solid #333;
+  border: 2px solid #222;
   padding: 15px 32px;
   border-radius: 5px;
   font-size: 16px;
@@ -14,9 +14,9 @@ button {
 
 h2 {
   color: #fff;
-  background-color: #333;
+  background-color: #222;
   padding: 1rem;
-  width: 40%;
+  width: 42%;
   margin: 50px auto;
   border-radius: 5px;
 }
@@ -26,21 +26,19 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #222;
 }
 
 li {
-  float: left;
-}
-
-li a {
-  display: block;
   color: white;
-
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 0;
 }
 
-li a:hover {
-  background-color: #111;
+.container {
+  padding-top: 10rem;
+}
+
+div button {
+  color: #222;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
